@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *********************************************************************
+ *  ____                      _____      _                           *
+ * / ___|  ___  _ __  _   _  | ____|_ __(_) ___ ___ ___  ___  _ __   *
+ * \___ \ / _ \| '_ \| | | | |  _| | '__| |/ __/ __/ __|/ _ \| '_ \  *
+ *  ___) | (_) | | | | |_| | | |___| |  | | (__\__ \__ \ (_) | | | | *
+ * |____/ \___/|_| |_|\__, | |_____|_|  |_|\___|___/___/\___/|_| |_| *
+ *                    |___/                                          *
+ *                                                                   *
+ *********************************************************************
+ * Copyright 2010 Sony Ericsson Mobile Communications AB.            *
+ * All rights, including trade secret rights, reserved.              *
+ *********************************************************************
+-->
+<!--
+    Keylayout name: arabic
+-->
+<keylayout>
+
+  <!-- First row -->
+
+  <key id="16"
+       primaryNormal="ض" primaryShifted="َ"/>
+  <key id="17"
+       primaryNormal="ص" primaryShifted="ً"
+       associatedNormal=")" associatedShifted=")"/>
+  <key id="18"
+       primaryNormal="ث" primaryShifted="ُ"
+       associatedNormal="(" associatedShifted="("/>
+  <key id="19"
+       primaryNormal="ق" primaryShifted="ٌ"
+       associatedNormal="1" associatedShifted="1"/>
+  <key id="20"
+       primaryNormal="ف" primaryShifted="لإ"
+       associatedNormal="2" associatedShifted="2"/>
+  <key id="21"
+       primaryNormal="غ" primaryShifted="إ"
+       associatedNormal="3" associatedShifted="3"/>
+  <key id="22"
+       primaryNormal="ع"
+       associatedNormal="*" associatedShifted="*"/>
+  <key id="23"
+       primaryNormal="خ"
+       associatedNormal="+" associatedShifted="+"/>
+  <key id="24"
+       primaryNormal="ح"
+       associatedNormal="/" associatedShifted="/"/>
+  <key id="25"
+       primaryNormal="ج"
+       associatedNormal="prefix:@" associatedShifted="prefix:@"/>
+
+  <!-- Second row -->
+
+  <key id="30"
+       primaryNormal="ش" primaryShifted="ِ"/>
+  <key id="31"
+       primaryNormal="س" primaryShifted="ٍ"
+       associatedNormal="&apos;" associatedShifted="&apos;"/>
+  <key id="32"
+       primaryNormal="ي" primaryShifted="ى"
+       associatedNormal="-" associatedShifted="-"/>
+  <key id="33"
+       primaryNormal="ب" primaryShifted="ٰ"
+       associatedNormal="4" associatedShifted="4"/>
+  <key id="34"
+       primaryNormal="ل" primaryShifted="لأ"
+       associatedNormal="5" associatedShifted="5"/>
+  <key id="35"
+       primaryNormal="ا" primaryShifted="أ"
+       associatedNormal="6" associatedShifted="6"/>
+  <key id="36"
+       primaryNormal="ت"
+       associatedNormal="#" associatedShifted="#"/>
+  <key id="37"
+       primaryNormal="ن" primaryShifted="،"
+       associatedNormal="," associatedShifted=","/>
+  <key id="38"
+       primaryNormal="م" primaryShifted="؛"
+       associatedNormal=";" associatedShifted=";"/>
+  <key id="14"
+       meta="META_DEL" allowRepeat="true"/>
+
+  <!-- Third row -->
+
+  <key id="44"
+       primaryNormal="ئ" primaryShifted="ء"/>
+  <key id="45"
+       primaryNormal="ؤ" primaryShifted="ّ"
+       associatedNormal="٪" associatedShifted="٪"/>
+  <key id="46"
+       primaryNormal="و" primaryShifted="ْ"
+       associatedNormal="\\" associatedShifted="\\"/>
+  <key id="47"
+       primaryNormal="ه" primaryShifted="لا"
+       associatedNormal="7" associatedShifted="7"/>
+  <key id="48"
+       primaryNormal="ر" primaryShifted="لآ"
+       associatedNormal="8" associatedShifted="8"/>
+  <key id="49"
+       primaryNormal="ز" primaryShifted="آ"
+       associatedNormal="9" associatedShifted="9"/>
+  <key id="50"
+       primaryNormal="ك" primaryShifted="ة"
+       associatedNormal="0" associatedShifted="0"/>
+  <key id="51"
+       primaryNormal="ظ" primaryShifted="؟"
+       associatedNormal="prefix:?" associatedShifted="prefix:?"/>
+  <key id="52"
+       primaryNormal="ط"
+       associatedNormal="!" associatedShifted="!"/>
+  <key id="28"
+       meta="META_ENTER"
+       primaryNormal="\n" primaryShifted="\n"
+       associatedNormal="\n" associatedShifted="\n"/>
+
+  <!-- Fourth row -->
+
+  <key id="56"
+       meta="META_ALT_LEFT"/>
+  <key id="42"
+       meta="META_SHIFT_LEFT"/>
+  <key id="214"
+       primaryNormal="ذ"
+       associatedNormal=":" associatedShifted=":"/>
+  <key id="57"
+       primaryNormal=" " primaryShifted=" "
+       associatedNormal=" " associatedShifted=" "/>
+  <key id="15"
+       primaryNormal=" " primaryShifted=" "
+       associatedNormal=" " associatedShifted=" "/>
+  <key id="40"
+       primaryNormal="د"
+       associatedNormal="." associatedShifted="."/>
+  <key id="216"
+       meta="META_SYM"/>
+
+  <!-- Extra keys -->
+
+  <key id="103"
+       meta="META_DPAD_LEFT" allowRepeat="true"/>
+  <key id="108"
+       meta="META_DPAD_RIGHT" allowRepeat="true"/>
+</keylayout>

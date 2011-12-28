@@ -16,5 +16,5 @@
     <bool name="has_search_button">false</bool>
 
     <!-- Undervolting kernel module -->
-    <string name="undervolting_module">x10miniuv.ko</string>
+    <string name="undervolting_module">x10miniprouv.ko</string>
 </resources>

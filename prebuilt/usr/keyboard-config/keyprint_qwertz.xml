@@ -14,12 +14,12 @@
  *********************************************************************
 -->
 <!--
-    Keyprint name: QWERTy
+    Keyprint name: QWERTZ
 -->
 <keyprint>
   <script name="arabic" keylayout="arabic"/>
   <script name="cyrillic" keylayout="cyrillic"/>
   <script name="greek" keylayout="greek"/>
   <script name="hebrew" keylayout="hebrew"/>
-  <script name="latin" keylayout="qwerty-en"/>
+  <script name="latin" keylayout="qwertz"/>
 </keyprint>

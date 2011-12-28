@@ -324,8 +324,11 @@ PRODUCT_COPY_FILES += \\
 ## Keyboard layouts and T9
 PRODUCT_COPY_FILES += \\
     vendor/__VENDOR__/__DEVICE__/proprietary/mimmi_keypad.kl:system/usr/keylayout/mimmi_keypad.kl \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/mimmi_keypad.kcm.bin:system/usr/keychars/mimmi_keypad.kcm.bin \\
     vendor/__VENDOR__/__DEVICE__/proprietary/libZiEngine.so:system/lib/libZiEngine.so \\
+    device/__VENDOR__/__DEVICE__/prebuilt/usr/keychars/mimmi_keypad.kcm.bin:system/usr/keychars/mimmi_keypad.kcm.bin \\
+    device/__VENDOR__/__DEVICE__/prebuilt/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \\
+    device/__VENDOR__/__DEVICE__/prebuilt/usr/keychars/systemconnector.kcm.bin:system/usr/keychars/systemconnector.kcm.bin \\
+    device/__VENDOR__/__DEVICE__/prebuilt/usr/keylayout/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/zi/Basque/Zi8DatEUs.z8d:system/usr/zi/Basque/Zi8DatEUs.z8d \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/zi/Danish/Zi8DatDAs.z8d:system/usr/zi/Danish/Zi8DatDAs.z8d \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/zi/Estonian/Zi8DatETs.z8d:system/usr/zi/Estonian/Zi8DatETs.z8d \\
@@ -363,6 +366,9 @@ PRODUCT_COPY_FILES += \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/zi/Turkish/Zi8DatTRs.z8d:system/usr/zi/Turkish/Zi8DatTRs.z8d \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/zi/Portuguese_BZ/Zi8DatPTBZs.z8d:system/usr/zi/Portuguese_BZ/Zi8DatPTBZs.z8d \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/zi/Portuguese_EU/Zi8DatPTEUs.z8d:system/usr/zi/Portuguese_EU/Zi8DatPTEUs.z8d \\
+    device/__VENDOR__/__DEVICE__/prebuilt/usr/zi/Arabic/Zi8DatARs.z8d:system/usr/zi/Arabic/Zi8DatARs.z8d \\
+    device/__VENDOR__/__DEVICE__/prebuilt/usr/zi/Farsi/Zi8DatFAs.z8d:system/usr/zi/Farsi/Zi8DatFAs.z8d \\
+    device/__VENDOR__/__DEVICE__/prebuilt/usr/zi/Hebrew/Zi8DatIWs.z8d:system/usr/zi/Hebrew/Zi8DatIWs.z8d \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keylayout/7k_handset.kl:system/usr/keylayout/7k_handset.kl \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keylayout/systemconnector.kl:system/usr/keylayout/systemconnector.kl \\
@@ -413,9 +419,12 @@ PRODUCT_COPY_FILES += \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/languages/ita.xml:system/usr/keyboard-config/languages/ita.xml \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/languages/isl.xml:system/usr/keyboard-config/languages/isl.xml \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/languages/bul.xml:system/usr/keyboard-config/languages/bul.xml \\
+    device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/languages/ara.xml:system/usr/keyboard-config/languages/ara.xml \\
+    device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/languages/fas.xml:system/usr/keyboard-config/languages/fas.xml \\
+    device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/languages/heb.xml:system/usr/keyboard-config/languages/heb.xml \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/languages/dan.xml:system/usr/keyboard-config/languages/dan.xml \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/keyprint.xml:system/usr/keyboard-config/keyprint.xml \\
-    device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/layouts/arabic.xml:system/usr/keyboard-config/languages/arabic.xml \\
+    device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/layouts/arabic.xml:system/usr/keyboard-config/layouts/arabic.xml \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/layouts/azerty.xml:system/usr/keyboard-config/layouts/azerty.xml \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/layouts/cyrillic.xml:system/usr/keyboard-config/layouts/cyrillic.xml \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/layouts/greek.xml:system/usr/keyboard-config/layouts/greek.xml \\
@@ -433,7 +442,8 @@ PRODUCT_COPY_FILES += \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/layouts/qwerty-en.xml:system/usr/keyboard-config/layouts/qwerty-en.xml \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/layouts/qwerty-no-dk.xml:system/usr/keyboard-config/layouts/qwerty-no-dk.xml \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/layouts/qwerty-se-fi.xml:system/usr/keyboard-config/layouts/qwerty-se-fi.xml \\
-    device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/layouts/qwertz.xml:system/usr/keyboard-config/layouts/qwertz.xml    
+    device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/layouts/qwertz.xml:system/usr/keyboard-config/layouts/qwertz.xml \\
+    device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/keyprint_qwertz.xml:system/usr/keyboard-config/keyprint_qwertz.xml
                 
 ## Themes
 PRODUCT_COPY_FILES += \\

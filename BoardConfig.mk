@@ -84,7 +84,7 @@ TARGET_NO_RADIOIMAGE := true
 
 BUILD_WITHOUT_PV := true
 
-WITH_DEXPREOPT := false
+WITH_DEXPREOPT := true
 
 BOARD_CUSTOM_BOOTIMG_MK := device/semc/msm7x27-common/custombootimg.mk
 TARGET_RECOVERY_PRE_COMMAND := "mkdir /cache/recovery;touch /cache/recovery/boot;sync;"

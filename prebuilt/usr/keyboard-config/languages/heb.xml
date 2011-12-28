@@ -14,12 +14,10 @@
  *********************************************************************
 -->
 <!--
-    Keyprint name: QWERTy
+    Language name        : Hebrew
+             code        : heb
+             visual code : עב'
+             script      : hebrew
 -->
-<keyprint>
-  <script name="arabic" keylayout="arabic"/>
-  <script name="cyrillic" keylayout="cyrillic"/>
-  <script name="greek" keylayout="greek"/>
-  <script name="hebrew" keylayout="hebrew"/>
-  <script name="latin" keylayout="qwerty-en"/>
-</keyprint>
+<language script="hebrew" lastCandidateScript="latin">
+</language>

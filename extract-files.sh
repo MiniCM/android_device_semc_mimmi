@@ -95,11 +95,11 @@ fi
     ${ACTION}/system/lib/libsystemconnector_hal_jni.so ../../../vendor/$VENDOR/$DEVICE/proprietary
     
 ## Adreno 200 files
-    ${ACTION}/system/lib/libgsl.so ../../../vendor/$VENDOR/$DEVICE/proprietary/libgsl.so
-    ${ACTION}/system/lib/egl/libEGL_adreno200.so ../../../vendor/$VENDOR/$DEVICE/proprietary/libEGL_adreno200.so
-    ${ACTION}/system/lib/egl/libGLESv1_CM_adreno200.so ../../../vendor/$VENDOR/$DEVICE/proprietary/libGLESv1_CM_adreno200.so
-    ${ACTION}/system/lib/egl/libGLESv2_adreno200.so ../../../vendor/$VENDOR/$DEVICE/proprietary/libGLESv2_adreno200.so
-    ${ACTION}/system/lib/egl/libq3dtools_adreno200.so ../../../vendor/$VENDOR/$DEVICE/proprietary/libq3dtools_adreno200.so
+#    ${ACTION}/system/lib/libgsl.so ../../../vendor/$VENDOR/$DEVICE/proprietary/libgsl.so
+#    ${ACTION}/system/lib/egl/libEGL_adreno200.so ../../../vendor/$VENDOR/$DEVICE/proprietary/libEGL_adreno200.so
+#    ${ACTION}/system/lib/egl/libGLESv1_CM_adreno200.so ../../../vendor/$VENDOR/$DEVICE/proprietary/libGLESv1_CM_adreno200.so
+#    ${ACTION}/system/lib/egl/libGLESv2_adreno200.so ../../../vendor/$VENDOR/$DEVICE/proprietary/libGLESv2_adreno200.so
+#    ${ACTION}/system/lib/egl/libq3dtools_adreno200.so ../../../vendor/$VENDOR/$DEVICE/proprietary/libq3dtools_adreno200.so
 
 ## Camera
     ${ACTION}/system/lib/libcamera.so ../../../vendor/$VENDOR/$DEVICE/proprietary/libcamera.so
@@ -246,11 +246,11 @@ PRODUCT_COPY_FILES += \\
 
 ## Adreno 200 files
 PRODUCT_COPY_FILES += \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/libgsl.so:system/lib/libgsl.so \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \\
-    vendor/__VENDOR__/__DEVICE__/proprietary/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
+    device/__VENDOR__/__DEVICE__/prebuilt/libgsl.so:system/lib/libgsl.so \\
+    device/__VENDOR__/__DEVICE__/prebuilt/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \\
+    device/__VENDOR__/__DEVICE__/prebuilt/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \\
+    device/__VENDOR__/__DEVICE__/prebuilt/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \\
+    device/__VENDOR__/__DEVICE__/prebuilt/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so
     
 ## Camera    
 PRODUCT_COPY_FILES += \\

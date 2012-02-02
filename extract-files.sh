@@ -308,19 +308,6 @@ PRODUCT_COPY_FILES += \\
     vendor/__VENDOR__/__DEVICE__/proprietary/inputattach:system/bin/inputattach \\
     vendor/__VENDOR__/__DEVICE__/proprietary/slidercounter:system/bin/slidercounter
 
-## Extra prebuilt binaries
-PRODUCT_COPY_FILES += \\
-    device/__VENDOR__/__DEVICE__/prebuilt/hw_config.sh:system/etc/hw_config.sh \\
-    device/__VENDOR__/__DEVICE__/prebuilt/FmRxService.apk:system/app/FmRxService.apk \\
-    device/__VENDOR__/__DEVICE__/prebuilt/Radio.apk:system/app/Radio.apk \\
-    device/__VENDOR__/__DEVICE__/prebuilt/SuquashiInputMethod.apk:system/app/SuquashiInputMethod.apk \\
-    device/__VENDOR__/__DEVICE__/prebuilt/SystemConnector.apk:system/app/SystemConnector.apk \\
-    device/__VENDOR__/__DEVICE__/prebuilt/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar \\
-    device/__VENDOR__/__DEVICE__/prebuilt/fmreceiverif.jar:system/framework/fmreceiverif.jar \\
-    device/__VENDOR__/__DEVICE__/prebuilt/SemcSmfmf.jar:system/framework/SemcSmfmf.jar \\
-    device/__VENDOR__/__DEVICE__/prebuilt/vold.fstab:system/etc/vold.fstab \\
-    device/__VENDOR__/__DEVICE__/placeholder:system/lib/modules/.placeholder \\
-
 ## Keyboard layouts and T9
 PRODUCT_COPY_FILES += \\
     vendor/__VENDOR__/__DEVICE__/proprietary/mimmi_keypad.kl:system/usr/keylayout/mimmi_keypad.kl \\
@@ -445,16 +432,6 @@ PRODUCT_COPY_FILES += \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/layouts/qwertz.xml:system/usr/keyboard-config/layouts/qwertz.xml \\
     device/__VENDOR__/__DEVICE__/prebuilt/usr/keyboard-config/keyprint_qwertz.xml:system/usr/keyboard-config/keyprint_qwertz.xml
                 
-## Themes
-PRODUCT_COPY_FILES += \\
-    device/__VENDOR__/__DEVICE__/prebuilt/MiniCM7.apk:system/app/MiniCM7.apk \\
-    device/__VENDOR__/__DEVICE__/prebuilt/OrangeHaze.apk:system/app/OrangeHaze.apk \\
-    device/__VENDOR__/__DEVICE__/prebuilt/minicm.png:system/usr/res/minicm.png
-    
-## Extra Cyanogen vendor files
-PRODUCT_COPY_FILES += \\
-    vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
-
 EOF
 
 ./setup-makefiles.sh

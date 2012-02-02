@@ -170,3 +170,35 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.themeId=MiniCM7 \
     persist.sys.themePackageName=com.darkdog.theme.minicm7
 
+## Extra prebuilt binaries
+PRODUCT_COPY_FILES += \
+    device/semc/mimmi/prebuilt/hw_config.sh:system/etc/hw_config.sh \
+    device/semc/mimmi/prebuilt/FmRxService.apk:system/app/FmRxService.apk \
+    device/semc/mimmi/prebuilt/Radio.apk:system/app/Radio.apk \
+    device/semc/mimmi/prebuilt/SystemConnector.apk:system/app/SystemConnector.apk \
+    device/semc/mimmi/prebuilt/com.sonyericsson.suquashi.jar:system/framework/com.sonyericsson.suquashi.jar \
+    device/semc/mimmi/prebuilt/fmreceiverif.jar:system/framework/fmreceiverif.jar \
+    device/semc/mimmi/prebuilt/SemcSmfmf.jar:system/framework/SemcSmfmf.jar \
+    device/semc/mimmi/prebuilt/vold.fstab:system/etc/vold.fstab \
+    device/semc/mimmi/placeholder:system/lib/modules/.placeholder
+   
+## Themes
+PRODUCT_COPY_FILES += \
+    device/semc/mimmi/prebuilt/MiniCM7.apk:system/app/MiniCM7.apk \
+    device/semc/mimmi/prebuilt/OrangeHaze.apk:system/app/OrangeHaze.apk \
+    device/semc/mimmi/prebuilt/minicm.png:system/usr/res/minicm.png
+
+## A2SD and extra init files
+PRODUCT_COPY_FILES += \
+    device/semc/mimmi/prebuilt/a2sd:system/bin/a2sd \
+    device/semc/mimmi/prebuilt/10apps2sd:system/etc/init.d/10apps2sd \
+    device/semc/mimmi/prebuilt/05mountext:system/etc/init.d/05mountext \
+    device/semc/mimmi/prebuilt/04modules:system/etc/init.d/04modules \
+    device/semc/mimmi/prebuilt/06minicm:system/etc/init.d/06minicm
+    
+## Extra Cyanogen vendor files
+PRODUCT_COPY_FILES += \
+    vendor/cyanogen/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+    
+    
+

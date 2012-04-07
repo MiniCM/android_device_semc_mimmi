@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *********************************************************************
+ *  ____                      _____      _                           *
+ * / ___|  ___  _ __  _   _  | ____|_ __(_) ___ ___ ___  ___  _ __   *
+ * \___ \ / _ \| '_ \| | | | |  _| | '__| |/ __/ __/ __|/ _ \| '_ \  *
+ *  ___) | (_) | | | | |_| | | |___| |  | | (__\__ \__ \ (_) | | | | *
+ * |____/ \___/|_| |_|\__, | |_____|_|  |_|\___|___/___/\___/|_| |_| *
+ *                    |___/                                          *
+ *                                                                   *
+ *********************************************************************
+ * Copyright 2010 Sony Ericsson Mobile Communications AB.            *
+ * All rights, including trade secret rights, reserved.              *
+ *********************************************************************
+-->
+<!--
+    Language name        : Arabic
+             code        : ara
+             visual code : عربي
+             script      : arabic
+-->
+<language script="arabic">
+  <primary normal="ق">
+    <candidate normal="١"/>
+  </primary>
+  <primary normal="ف">
+    <candidate normal="٢"/>
+  </primary>
+  <primary normal="غ">
+    <candidate normal="٣"/>
+  </primary>
+  <primary normal="ب">
+    <candidate normal="٤"/>
+  </primary>
+  <primary normal="ل">
+    <candidate normal="٥"/>
+  </primary>
+  <primary normal="ا">
+    <candidate normal="٦"/>
+  </primary>
+  <primary normal="ه">
+    <candidate normal="٧"/>
+  </primary>
+  <primary normal="ر">
+    <candidate normal="٨"/>
+  </primary>
+  <primary normal="ز">
+    <candidate normal="٩"/>
+  </primary>
+  <primary normal="ك">
+    <candidate normal="٠"/>
+  </primary>
+  <primary normal="1">
+    <candidate normal="١"/>
+  </primary>
+  <primary normal="2">
+    <candidate normal="٢"/>
+  </primary>
+  <primary normal="3">
+    <candidate normal="٣"/>
+  </primary>
+  <primary normal="4">
+    <candidate normal="٤"/>
+  </primary>
+  <primary normal="5">
+    <candidate normal="٥"/>
+  </primary>
+  <primary normal="6">
+    <candidate normal="٦"/>
+  </primary>
+  <primary normal="7">
+    <candidate normal="٧"/>
+  </primary>
+  <primary normal="8">
+    <candidate normal="٨"/>
+  </primary>
+  <primary normal="9">
+    <candidate normal="٩"/>
+  </primary>
+  <primary normal="0">
+    <candidate normal="٠"/>
+  </primary>
+</language>

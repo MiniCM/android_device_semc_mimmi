@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- LED Flashlight -->
+    <bool name="has_led_flash">true</bool>
+
+    <!-- Undervolting module -->
+    <string name="undervolting_module">x10miniprouv.ko</string>
+
+</resources>

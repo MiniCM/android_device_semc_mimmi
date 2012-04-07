@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *********************************************************************
+ *  ____                      _____      _                           *
+ * / ___|  ___  _ __  _   _  | ____|_ __(_) ___ ___ ___  ___  _ __   *
+ * \___ \ / _ \| '_ \| | | | |  _| | '__| |/ __/ __/ __|/ _ \| '_ \  *
+ *  ___) | (_) | | | | |_| | | |___| |  | | (__\__ \__ \ (_) | | | | *
+ * |____/ \___/|_| |_|\__, | |_____|_|  |_|\___|___/___/\___/|_| |_| *
+ *                    |___/                                          *
+ *                                                                   *
+ *********************************************************************
+ * Copyright 2010 Sony Ericsson Mobile Communications AB.            *
+ * All rights, including trade secret rights, reserved.              *
+ *********************************************************************
+-->
+<!--
+    Keylayout name: qwerty-no-dk
+-->
+<keylayout>
+
+  <!-- First row -->
+
+  <key id="16"
+       primaryNormal="q" primaryShifted="Q"/>
+  <key id="17"
+       primaryNormal="w" primaryShifted="W"/>
+  <key id="18"
+       primaryNormal="e" primaryShifted="E"
+       associatedNormal="&apos;" associatedShifted="&apos;"/>
+  <key id="19"
+       primaryNormal="r" primaryShifted="R"
+       associatedNormal="1" associatedShifted="1"/>
+  <key id="20"
+       primaryNormal="t" primaryShifted="T"
+       associatedNormal="2" associatedShifted="2"/>
+  <key id="21"
+       primaryNormal="y" primaryShifted="Y"
+       associatedNormal="3" associatedShifted="3"/>
+  <key id="22"
+       primaryNormal="u" primaryShifted="U"
+       associatedNormal="*" associatedShifted="*"/>
+  <key id="23"
+       primaryNormal="i" primaryShifted="I"
+       associatedNormal="+" associatedShifted="+"/>
+  <key id="24"
+       primaryNormal="o" primaryShifted="O"
+       associatedNormal="/" associatedShifted="/"/>
+  <key id="25"
+       primaryNormal="p" primaryShifted="P"
+       associatedNormal="prefix:@" associatedShifted="prefix:@"/>
+
+  <!-- Second row -->
+
+  <key id="30"
+       primaryNormal="a" primaryShifted="A"/>
+  <key id="31"
+       primaryNormal="s" primaryShifted="S"/>
+  <key id="32"
+       primaryNormal="d" primaryShifted="D"
+       associatedNormal=";" associatedShifted=";"/>
+  <key id="33"
+       primaryNormal="f" primaryShifted="F"
+       associatedNormal="4" associatedShifted="4"/>
+  <key id="34"
+       primaryNormal="g" primaryShifted="G"
+       associatedNormal="5" associatedShifted="5"/>
+  <key id="35"
+       primaryNormal="h" primaryShifted="H"
+       associatedNormal="6" associatedShifted="6"/>
+  <key id="36"
+       primaryNormal="j" primaryShifted="J"
+       associatedNormal="#" associatedShifted="#"/>
+  <key id="37"
+       primaryNormal="k" primaryShifted="K"
+       associatedNormal="(" associatedShifted="("/>
+  <key id="38"
+       primaryNormal="l" primaryShifted="L"
+       associatedNormal=")" associatedShifted=")"/>
+  <key id="14"
+       meta="META_DEL" allowRepeat="true"/>
+
+  <!-- Third row -->
+
+  <key id="44"
+       primaryNormal="z" primaryShifted="Z"/>
+  <key id="45"
+       primaryNormal="x" primaryShifted="X"/>
+  <key id="46"
+       primaryNormal="c" primaryShifted="C"
+       associatedNormal="," associatedShifted=","/>
+  <key id="47"
+       primaryNormal="v" primaryShifted="V"
+       associatedNormal="7" associatedShifted="7"/>
+  <key id="48"
+       primaryNormal="b" primaryShifted="B"
+       associatedNormal="8" associatedShifted="8"/>
+  <key id="49"
+       primaryNormal="n" primaryShifted="N"
+       associatedNormal="9" associatedShifted="9"/>
+  <key id="50"
+       primaryNormal="m" primaryShifted="M"
+       associatedNormal="0" associatedShifted="0"/>
+  <key id="51"
+       primaryNormal="ø" primaryShifted="Ø"
+       associatedNormal="!" associatedShifted="!"/>
+  <key id="52"
+       primaryNormal="æ" primaryShifted="Æ"
+       associatedNormal="prefix:?" associatedShifted="prefix:?"/>
+  <key id="28"
+       meta="META_ENTER"
+       primaryNormal="\n" primaryShifted="\n"
+       associatedNormal="\n" associatedShifted="\n"/>
+
+  <!-- Fourth row -->
+
+  <key id="56"
+       meta="META_ALT_LEFT"/>
+  <key id="42"
+       meta="META_SHIFT_LEFT"/>
+  <key id="214"
+       primaryNormal="." primaryShifted=":"
+       associatedNormal=":" associatedShifted=":"/>
+  <key id="57"
+       primaryNormal=" " primaryShifted=" "
+       associatedNormal=" " associatedShifted=" "/>
+  <key id="15"
+       primaryNormal=" " primaryShifted=" "
+       associatedNormal=" " associatedShifted=" "/>
+  <key id="40"
+       primaryNormal="å" primaryShifted="Å"
+       associatedNormal="-" associatedShifted="-"/>
+  <key id="216"
+       meta="META_SYM"/>
+
+  <!-- Extra keys -->
+
+  <key id="103"
+       meta="META_DPAD_LEFT" allowRepeat="true"/>
+  <key id="108"
+       meta="META_DPAD_RIGHT" allowRepeat="true"/>
+</keylayout>

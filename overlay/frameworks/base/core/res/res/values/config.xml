@@ -29,6 +29,11 @@
 
     <bool name="config_animateScreenLights">false</bool>
 
+    <!-- Flag indicating whether the surface flinger is inefficient
+        at performing a blur.  Used by parts of the UI to turn off
+        the blur effect where it isn't worth the performance hit. -->
+    <bool name="config_sf_slowBlur">true</bool>
+
     <!--<bool name="config_hspa_data_distinguishable">true</bool>-->
 
     <!-- Flag indicating whether we should enable the automatic brightness in Settings.
@@ -68,7 +73,6 @@
         <item>186</item>
         <item>255</item>
     </integer-array>
-
 
     <!-- Array of output values for button backlight corresponding to the LUX values
          in the config_autoBrightnessLevels array.  This array should have size one greater

@@ -10,21 +10,24 @@ PRODUCT_NAME := U20i
 PRODUCT_DEVICE := mimmi
 PRODUCT_MODEL := U20i
 
+#
+# Boot files
+#
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
+endif
+
 # density in DPI of the LCD of this board. This is used to scale the UI
 # appropriately. If this property is not defined, the default value is 160 dpi. 
 PRODUCT_PROPERTY_OVERRIDES := \
     ro.sf.lcd_density=120
 
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
-PRODUCT_COPY_FILES += \
-    $(TARGET_PREBUILT_KERNEL):kernel
-
--include device/semc/msm7x27-common/msm7x27.mk
-
 # These is the hardware-specific overlay, which points to the location
 # of hardware-specific resource overrides, typically the frameworks and
 # application settings that are stored in resourced.    
 DEVICE_PACKAGE_OVERLAYS := device/semc/mimmi/overlay
+
+-include device/semc/msm7x27-common/msm7x27.mk
 
 # Sensors and lights
 PRODUCT_PACKAGES += \
@@ -42,7 +45,8 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # Extra prebuilt binaries
 PRODUCT_COPY_FILES += \
-    device/semc/mimmi/prebuilt/hw_config.sh:system/etc/hw_config.sh
+    device/semc/mimmi/prebuilt/hw_config.sh:system/etc/hw_config.sh \
+    vendor/semc/mimmi/proprietary/libcamera.so:obj/lib/libcamera.so
 
 # Wifi firmware
 PRODUCT_COPY_FILES += \

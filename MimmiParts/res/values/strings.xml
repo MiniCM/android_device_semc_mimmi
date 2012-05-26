@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MimmiParts</string>
+    <string name="hardware_title">Hardware Configuration</string>
+    
+    <!-- lm3530 Settings -->
+    <string name="lm3530_title">LM3530 LMU Configuration</string>
+    <string name="lm3530_summary">The settings below for lm3530 LMU configuration</string>
+    <string name="brightness_mode_title">Brightness Mode</string>
+    <string name="brightness_mode_summary">Choose Brightness Mode</string>
+    <string name="brightness_rate_up_title">Brightness Rate Up</string>
+    <string name="brightness_rate_up_summary">Choose Brightness Rate Up</string>
+    <string name="brightness_rate_down_title">Brightness Rate Down</string>
+    <string name="brightness_rate_down_summary">Choose Brightness Rate Down</string>
+    <string name="brightness_avg_time_title">Brightness Avg Time</string>
+    <string name="brightness_avg_time_summary">Choose Brightness Avg Time</string>
+
+    <!--Keyboard Settings -->
+    <string name="keyboard_head">Keyboard Settings</string>
+    <string name="keyboard_title">Keyboard Configuration</string>
+    <string name="keyboard_summary">The settings below for keyboard configuration</string>
+    <string name="keyboard_layout_title">Keyboard layout</string>
+    <string name="keyboard_layout_summary">Choose your physical keyboard layout (reboot automatic)</string>
+    <string name="keyboard_keyprint_title">Keyboard keyprint</string>
+    <string name="keyboard_keyprint_summary">Choose your physical keyboard keyprint</string>
+    <string name="keyboard_led_mode_title">LED Control Mode</string>
+    <string name="keyboard_led_mode_summary">Choose LED control mode for physical keyboard</string>
+
+    <!-- alerts and errors -->
+    <string name="warning">Warning</string>
+    <string name="caution_keyboard">By changing the Keyboard layout some keys might stop working, be sure to change to the correct layout only! Are you sure you want to continue?</string>
+
+</resources>
+
+

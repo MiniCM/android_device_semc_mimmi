@@ -4,9 +4,6 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 # Release name
 PRODUCT_RELEASE_NAME := X10mini
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/semc/mimmi/device_mimmi.mk)
 

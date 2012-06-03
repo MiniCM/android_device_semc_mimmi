@@ -3,7 +3,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 
 # proprietary side of the device
-$(call inherit-product-if-exists, vendor/semc/mimmi/device_mimmi-vendor.mk)
+$(call inherit-product-if-exists, vendor/semc/mimmi/mimmi-vendor.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := U20i
@@ -45,8 +45,7 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # Extra prebuilt binaries
 PRODUCT_COPY_FILES += \
-    device/semc/mimmi/prebuilt/hw_config.sh:system/etc/hw_config.sh \
-    vendor/semc/mimmi/proprietary/libcamera.so:obj/lib/libcamera.so
+    device/semc/mimmi/prebuilt/hw_config.sh:system/etc/hw_config.sh
 
 # Wifi firmware
 PRODUCT_COPY_FILES += \

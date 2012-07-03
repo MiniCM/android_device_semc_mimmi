@@ -74,7 +74,7 @@ key 53    SLASH
 key 28    ENTER
         
 key 56    ALT_LEFT
-key 216   ALT_RIGHT
+key 216   SYM
 key 42    SHIFT_LEFT
 key 54    SHIFT_RIGHT
 key 15    SPACE

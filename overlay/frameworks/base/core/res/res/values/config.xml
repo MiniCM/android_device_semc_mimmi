@@ -86,6 +86,8 @@
         <item>0</item>
     </integer-array>
 
+    <!-- True if the Sym key should open the InputMethodPicker (deault) -->
+    <bool name="config_symKeyShowsImePicker">false</bool>
 
     <!-- Array of output values for keyboard backlight corresponding to the LUX values
          in the config_autoBrightnessLevels array.  This array should have size one greater

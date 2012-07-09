@@ -53,7 +53,8 @@ PRODUCT_PACKAGES += \
     Torch \
     ADWLauncher \
     Cyanbread \
-    Androidian
+    Androidian \
+    MimmiParts
 
 PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \

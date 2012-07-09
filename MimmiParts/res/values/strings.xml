@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MimmiParts</string>
+    <string name="mimmi_title">Mimmi Configuration</string>
+    
+    <!--Main Settings -->
+    <string name="lm3530_head">Brightness</string>
+    <string name="lm3530_summary">Brightness mode, rate up and down, avg time</string>
+    <string name="keyboard_head">Physical Keyboard</string>
+    <string name="keyboard_summary">Keyboard layout, keyprint, led mode</string>
+    
+    <!-- Brightness Settings -->
+    <string name="lm3530_title">Brightness Configuration</string>
+    <string name="brightness_mode_title">Brightness Mode</string>
+    <string name="brightness_mode_summary">Choose Brightness Mode</string>
+    <string name="brightness_rate_up_title">Brightness Rate Up</string>
+    <string name="brightness_rate_up_summary">Choose Brightness Rate Up</string>
+    <string name="brightness_rate_down_title">Brightness Rate Down</string>
+    <string name="brightness_rate_down_summary">Choose Brightness Rate Down</string>
+    <string name="brightness_avg_time_title">Brightness Avg Time</string>
+    <string name="brightness_avg_time_summary">Choose Brightness Avg Time</string>
+
+    <!--Keyboard Settings -->
+    <string name="keyboard_title">Physical Keyboard Configuration</string>
+    <string name="keyboard_layout_title">Keyboard layout</string>
+    <string name="keyboard_layout_summary">Choose your physical keyboard layout (reboot automatic)</string>
+    <string name="keyboard_keyprint_title">Keyboard keyprint</string>
+    <string name="keyboard_keyprint_summary">Choose your physical keyboard keyprint (just for default input user)</string>
+    <string name="keyboard_led_mode_title">LED Control Mode</string>
+    <string name="keyboard_led_mode_summary">Choose LED control mode for physical keyboard</string>
+
+    <!-- alerts and errors -->
+    <string name="warning">Warning</string>
+    <string name="caution_keyboard">By changing the Keyboard layout some keys might stop working, be sure to change to the correct layout only! Are you sure you want to continue?</string>
+
+</resources>
+
+

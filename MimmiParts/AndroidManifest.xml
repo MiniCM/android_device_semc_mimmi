@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cyanogenmod.MimmiParts" android:versionCode="1" android:versionName="1.2">
+    
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.REBOOT"></uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    
+    <application android:label="@string/app_name" 
+    	android:icon="@drawable/icon">
+        <activity android:name="MimmiParts"
+                  android:label="@string/app_name">
+            <intent-filter>
+            	<action android:name="android.intent.action.MAIN" />
+            	<action android:name="com.cyanogenmod.action.LAUNCH_DEVICE_SETTINGS" />
+            	<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Brightness"
+            android:label="@string/lm3530_head">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.cyanogenmod.MimmiParts.SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MimmiKeyboard"
+            android:label="@string/keyboard_head">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.cyanogenmod.MimmiParts.SHORTCUT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+    	
+</manifest> 

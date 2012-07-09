@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:mimmi="http://schemas.android.com/apk/res/com.cyanogenmod.MimmiParts"
+	android:title="@string/mimmi_title"
+	android:key="parent">
+
+	<com.cyanogenmod.MimmiParts.IconPreferenceScreen
+		android:key="brightness"
+		mimmi:icon="@drawable/ic_brightness"
+		android:title="@string/lm3530_head"
+		android:summary="@string/lm3530_summary">
+		<intent android:action="android.intent.action.MAIN"
+            		android:targetPackage="com.cyanogenmod.MimmiParts"
+            		android:targetClass="com.cyanogenmod.MimmiParts.Brightness" />
+	</com.cyanogenmod.MimmiParts.IconPreferenceScreen>
+	
+	<com.cyanogenmod.MimmiParts.IconPreferenceScreen
+		android:key="keyboard"
+		mimmi:icon="@drawable/ic_keyboard"
+		android:title="@string/keyboard_head"
+		android:summary="@string/keyboard_summary">
+		<intent android:action="android.intent.action.MAIN"
+            		android:targetPackage="com.cyanogenmod.MimmiParts"
+            		android:targetClass="com.cyanogenmod.MimmiParts.MimmiKeyboard" />
+	</com.cyanogenmod.MimmiParts.IconPreferenceScreen>
+
+</PreferenceScreen>

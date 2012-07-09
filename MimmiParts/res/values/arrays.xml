@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- brightness Settings -->
+    <string-array name="brightness_mode_entries">
+        <item>i2c</item>
+        <item>i2c_pwm</item>
+        <item>als</item>
+        <item>pwm_als</item>
+        <item>i2c_pwm_als</item>
+        <item>i2_als</item>
+    </string-array>
+    
+    <string-array name="brightness_mode_values" translatable="false">
+        <item>i2c</item>
+        <item>i2c_pwm</item>
+        <item>als</item>
+        <item>pwm_als</item>
+        <item>i2c_pwm_als</item>
+        <item>i2_als</item>
+    </string-array>
+    
+    <string-array name="brightness_rate_entries">
+        <item>8</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>16384</item>
+        <item>32768</item>
+        <item>65538</item>
+    </string-array>
+    
+    <string-array name="brightness_rate_values" translatable="false">
+        <item>8</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+        <item>8192</item>
+        <item>16384</item>
+        <item>32768</item>
+        <item>65538</item>
+    </string-array>
+    
+    <string-array name="brightness_time_entries">
+        <item>32</item>
+        <item>63</item>
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+    </string-array>
+    
+    <string-array name="brightness_time_values" translatable="false">
+        <item>32</item>
+        <item>63</item>
+        <item>128</item>
+        <item>256</item>
+        <item>512</item>
+        <item>1024</item>
+        <item>2048</item>
+        <item>4096</item>
+    </string-array>
+    
+    <!--Keyboard Settings -->
+    <string-array name="entries_layout">
+    	<item>Arabic</item>
+        <item>Azerty</item>
+        <item>Cyrillic</item>
+        <item>Greek</item>
+        <item>Hebrew</item>
+        <item>Latin-on-Arabic</item>
+        <item>Latin-on-Arabic-azerty</item>
+        <item>Latin-on-Bopomofo</item>
+        <item>Latin-on-Cyrillic</item>
+        <item>Latin-on-Greek</item>
+        <item>Latin-on-Hebrew</item>
+        <item>Latin-on-Korean</item>
+        <item>Latin-on-Pinyin</item>
+        <item>Latin-on-Thai</item>
+        <item>Qwerty-br</item>
+        <item>Qwerty-en</item>
+        <item>Qwerty-no-dk</item>
+        <item>Qwerty-se-fi</item>
+        <item>Qwertz</item>
+    </string-array>
+
+    <string-array name="values_layout" translatable="false">
+        <item>AR</item>
+        <item>AZ</item>
+        <item>CY</item>
+        <item>GR</item>
+        <item>HE</item>
+        <item>LOAR</item>
+        <item>LOARAZ</item>
+        <item>LOBO</item>
+        <item>LOCY</item>
+        <item>LOGR</item>
+        <item>LOHE</item>
+        <item>LOKO</item>
+        <item>LOPI</item>
+        <item>LOTH</item>
+        <item>QWBR</item>
+        <item>QWEN</item>
+        <item>QWNDK</item>
+        <item>QWSFI</item>
+        <item>QWZ</item>
+    </string-array>
+    
+    <string-array name="led_mode_entries">
+        <item>user</item>
+        <item>als</item>
+        <item>user_als</item>
+    </string-array>
+    
+    <string-array name="led_mode_values" translatable="false">
+        <item>user</item>
+        <item>als</item>
+        <item>user_als</item>
+    </string-array>
+
+</resources>

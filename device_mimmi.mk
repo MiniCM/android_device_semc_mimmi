@@ -33,7 +33,8 @@ DEVICE_PACKAGE_OVERLAYS := device/semc/mimmi/overlay
 PRODUCT_PACKAGES += \
     sensors.mimmi \
     lights.mimmi \
-    Torch
+    Torch \
+    MimmiParts
 
 # media configuration xml file
 PRODUCT_COPY_FILES += \

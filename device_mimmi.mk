@@ -29,10 +29,7 @@ DEVICE_PACKAGE_OVERLAYS := device/semc/mimmi/overlay
 
 -include device/semc/msm7x27-common/msm7x27.mk
 
-# Sensors and lights
 PRODUCT_PACKAGES += \
-    sensors.mimmi \
-    lights.mimmi \
     Torch \
     MimmiParts
 

@@ -71,6 +71,6 @@ key 106   DPAD_DOWN         WAKE_DROPPED
 key 40    COMMA	            WAKE_DROPPED
 # Key code SYM is used by platform to open InputMethodSelectionDialog, use
 # ALT_RIGHT instead.
-key 216   SYM               WAKE_DROPPED
+key 216   ALT_RIGHT               WAKE_DROPPED
 
 

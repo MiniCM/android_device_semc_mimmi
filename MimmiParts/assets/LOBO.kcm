@@ -22,81 +22,81 @@ type ALPHA
 key Q {
     label:                              'Q'
     base:                               'q'
-    shift, capslock:                    'Q'
-    alt:				'\u3105'
-    shift+alt, capslock+alt:            '\u3106'
+    shift:                              'Q'
+    alt:                                '\u3105'
+    shift+alt:                          '\u3106'
 }
 
 key W {
     label:                              'W'
     base:                               'w'
-    shift, capslock:                    'W'
-    alt:				'\u3109'
-    shift+alt, capslock+alt:            '\u310A'
+    shift:                              'W'
+    alt:                                '\u3109'
+    shift+alt:                          '\u310A'
 }
 
 key E {
     label:                              'E'
     base:                               'e'
-    shift, capslock:                    'E'
-    alt:				'\u3113'
-    shift+alt, capslock+alt:            '\u310D'
+    shift:                              'E'
+    alt:                                '\u3113'
+    shift+alt:                          '\u310D'
 }
 
 key R {
     label:                              'R'
     base:                               'r'
-    shift, capslock:                    'R'
-    alt:				'1'
-    shift+alt, capslock+alt:            '\u3110'
+    shift:                              'R'
+    alt:                                '1'
+    shift+alt:                          '\u3110'
 }
 
 key T {
     label:                              'T'
     base:                               't'
-    shift, capslock:                    'T'
-    alt:				'2'
-    shift+alt, capslock+alt:            '\u3114'
+    shift:                              'T'
+    alt:                                '2'
+    shift+alt:                          '\u3114'
 }
 
 key Y {
     label:                              'Y'
     base:                               'y'
-    shift, capslock:                    'Y'
-    alt:				'3'
-    shift+alt, capslock+alt:            '\u3117'
+    shift:                              'Y'
+    alt:                                '3'
+    shift+alt:                          '\u3117'
 }
 
 key U {
     label:                              'U'
     base:                               'u'
-    shift, capslock:                    'U'
-    alt:				'*'
-    shift+alt, capslock+alt:            '\u3127'
+    shift:                              'U'
+    alt:                                '*'
+    shift+alt:                          '\u3127'
 }
 
 key I {
     label:                              'I'
     base:                               'i'
-    shift, capslock:                    'I'
-    alt:				'+'
-    shift+alt, capslock+alt:            '\u311B'
+    shift:                              'I'
+    alt:                                '+'
+    shift+alt:                          '\u311B'
 }
 
 key O {
     label:                              'O'
     base:                               'o'
-    shift, capslock:                    'O'
-    alt:				'\u311A'
-    shift+alt, capslock+alt:            '\u311F'
+    shift:                              'O'
+    alt:                                '\u311A'
+    shift+alt:                          '\u311F'
 }
 
 key P {
     label:                              'P'
     base:                               'p'
-    shift, capslock:                    'P'
-    alt:				'\u311E'
-    shift+alt, capslock+alt:            '\u3123'
+    shift:                              'P'
+    alt:                                '\u311E'
+    shift+alt:                          '\u3123'
 }
 
 ### ROW 2 ###
@@ -104,73 +104,73 @@ key P {
 key A {
     label:                              'A'
     base:                               'a'
-    shift, capslock:                    'A'
-    alt:				'\u02C7'
-    shift+alt, capslock+alt:            '\u3107'
+    shift:                              'A'
+    alt:                                '\u02C7'
+    shift+alt:                          '\u3107'
 }
 
 key S {
     label:                              'S'
     base:                               's'
-    shift, capslock:                    'S'
-    alt:				'\u02CB'
-    shift+alt, capslock+alt:            '\u310B'
+    shift:                              'S'
+    alt:                                '\u02CB'
+    shift+alt:                          '\u310B'
 }
 
 key D {
     label:                              'D'
     base:                               'd'
-    shift, capslock:                    'D'
-    alt:				'\u02CA'
-    shift+alt, capslock+alt:            '\u02CA'
+    shift:                              'D'
+    alt:                                '\u02CA'
+    shift+alt:                          '\u02CA'
 }
 
 key F {
     label:                              'F'
     base:                               'f'
-    shift, capslock:                    'F'
-    alt:				'4'
-    shift+alt, capslock+alt:            '\u3111'
+    shift:                              'F'
+    alt:                                '4'
+    shift+alt:                          '\u3111'
 }
 
 key G {
     label:                              'G'
     base:                               'g'
-    shift, capslock:                    'G'
-    alt:				'5'
-    shift+alt, capslock+alt:            '\u3115'
+    shift:                              'G'
+    alt:                                '5'
+    shift+alt:                          '\u3115'
 }
 
 key H {
     label:                              'H'
     base:                               'h'
-    shift, capslock:                    'H'
-    alt:				'6'
-    shift+alt, capslock+alt:            '\u3118'
+    shift:                              'H'
+    alt:                                '6'
+    shift+alt:                          '\u3118'
 }
 
 key J {
     label:                              'J'
     base:                               'j'
-    shift, capslock:                    'J'
-    alt:				'#'
-    shift+alt, capslock+alt:            '\u3128'
+    shift:                              'J'
+    alt:                                '#'
+    shift+alt:                          '\u3128'
 }
 
 key K {
     label:                              'K'
     base:                               'k'
-    shift, capslock:                    'K'
-    alt:				'\u3124'
-    shift+alt, capslock+alt:            '\u311B'
+    shift:                              'K'
+    alt:                                '\u3124'
+    shift+alt:                          '\u311B'
 }
 
 key L {
     label:                              'L'
     base:                               'l'
-    shift, capslock:                    'L'
-    alt:				'\u3122'
-    shift+alt, capslock+alt:            '\u3120'
+    shift:                              'L'
+    alt:                                '\u3122'
+    shift+alt:                          '\u3120'
 }
 
 ### ROW 3 ###
@@ -178,81 +178,81 @@ key L {
 key Z {
     label:                              'Z'
     base:                               'z'
-    shift, capslock:                    'Z'
-    alt:				'\u02D9'
-    shift+alt, capslock+alt:            '\u02D9'
+    shift:                              'Z'
+    alt:                                '\u02D9'
+    shift+alt:                          '\u02D9'
 }
 
 key X {
     label:                              'X'
     base:                               'x'
-    shift, capslock:                    'X'
-    alt:				'\u3126'
-    shift+alt, capslock+alt:            '\u310C'
+    shift:                              'X'
+    alt:                                '\u3126'
+    shift+alt:                          '\u310C'
 }
 
 key C {
     label:                              'C'
     base:                               'c'
-    shift, capslock:                    'C'
-    alt:				'\u3125'
-    shift+alt, capslock+alt:            '\u310F'
+    shift:                              'C'
+    alt:                                '\u3125'
+    shift+alt:                          '\u310F'
 }
 
 key V {
     label:                              'V'
     base:                               'v'
-    shift, capslock:                    'V'
-    alt:				'7'
-    shift+alt, capslock+alt:            '\u3112'
+    shift:                              'V'
+    alt:                                '7'
+    shift+alt:                          '\u3112'
 }
 
 key B {
     label:                              'B'
     base:                               'b'
-    shift, capslock:                    'B'
-    alt:				'8'
-    shift+alt, capslock+alt:            '\u3116'
+    shift:                              'B'
+    alt:                                '8'
+    shift+alt:                          '\u3116'
 }
 
 key N {
     label:                              'N'
     base:                               'n'
-    shift, capslock:                    'N'
-    alt:				'9'
-    shift+alt, capslock+alt:            '\u3119'
+    shift:                              'N'
+    alt:                                '9'
+    shift+alt:                          '\u3119'
 }
 
 key M {
     label:                              'M'
     base:                               'm'
-    shift, capslock:                    'M'
-    alt:				'0'
-    shift+alt, capslock+alt:            '\u3129'
+    shift:                              'M'
+    alt:                                '0'
+    shift+alt:                          '\u3129'
 }
 
 key COMMA {
     label:                      	'?'
     base:                               '?'
-    shift, capslock:                    ';'
-    alt:				';'
-    shift+alt, capslock+alt:            '\u311D'
+    shift:                              ';'
+    alt:                                ';'
+    shift+alt:                          '\u311D'
 }
 
 key PERIOD {
     label:                      	'!'
     base:                               '!'
-    shift, capslock:                    ':'
-    alt:				':'
-    shift+alt, capslock+alt:            '\u3121'
+    shift:                              ':'
+    alt:                                ':'
+    shift+alt:                          '\u3121'
 }
 
 key ENTER {
     label:                              '\n'
     base:                               '\n'
-    shift, capslock:                    '\n'
-    alt:				'\n'
-    shift+alt, capslock+alt:            '\n'
+    shift:                              '\n'
+    alt:                                '\n'
+    shift+alt:                          '\n'
 }
 
 ### ROW 4 ###
@@ -260,31 +260,31 @@ key ENTER {
 key GRAVE {
     label:                              ','
     base:                               ','
-    shift, capslock:                    '\''
-    alt:				'\''
-    shift+alt, capslock+alt:            '\''
+    shift:                              '\''
+    alt:                                '\''
+    shift+alt:                          '\''
 }
 
 key SPACE {
     label:                              ' '
     base:                               ' '
-    shift, capslock:                    ' '
-    alt:				' '
-    shift+alt, capslock+alt:            ' '
+    shift:                              ' '
+    alt:                                ' '
+    shift+alt:                          ' '
 }
 
 key APOSTROPHE {
     label:                      	'.'
     base:                               '.'
-    shift, capslock:                    '-'
-    alt:				'-'
-    shift+alt, capslock+alt:            '-'
+    shift:                              '-'
+    alt:                                '-'
+    shift+alt:                          '-'
 }
 
-key SYM {
+key META_RIGHT {
     label:                              '\uef01'
     base:                               '\uef01'
-    shift, capslock:                    '\uef01'
+    shift:                              '\uef01'
     alt:                                '\uef01'
-    shift+alt, capslock+alt:            '\uef01'
+    shift+alt:                          '\uef01'
 }

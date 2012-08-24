@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen 
+	xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory
+	android:title="@string/lm3530_title">
+	
+	<ListPreference android:key="brightness_mode"
+	    	android:dialogTitle="@string/brightness_mode_title"
+		android:title="@string/brightness_mode_title"
+	        android:summary="@string/brightness_mode_summary"
+	        android:entries="@array/brightness_mode_entries"
+		android:entryValues="@array/brightness_mode_values" />
+
+	<ListPreference android:key="brightness_rate_up"
+	    	android:dialogTitle="@string/brightness_rate_up_title"
+		android:title="@string/brightness_rate_up_title"
+	        android:summary="@string/brightness_rate_up_summary"
+	        android:entries="@array/brightness_rate_entries"
+		android:entryValues="@array/brightness_rate_values" />
+	
+	<ListPreference android:key="brightness_rate_down"
+	    	android:dialogTitle="@string/brightness_rate_down_title"
+		android:title="@string/brightness_rate_down_title"
+	        android:summary="@string/brightness_rate_down_summary"
+	        android:entries="@array/brightness_rate_entries"
+		android:entryValues="@array/brightness_rate_values" />
+
+	<ListPreference android:key="brightness_avg_time"
+	    	android:dialogTitle="@string/brightness_avg_time_title"
+		android:title="@string/brightness_avg_time_title"
+	        android:summary="@string/brightness_avg_time_summary"
+	        android:entries="@array/brightness_time_entries"
+		android:entryValues="@array/brightness_time_values" />
+
+    </PreferenceCategory>
+      
+</PreferenceScreen>
+
+

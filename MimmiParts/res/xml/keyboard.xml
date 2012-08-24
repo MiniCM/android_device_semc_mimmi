@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen 
+	xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:key="keyboard_category"
+	android:title="@string/keyboard_title">
+	
+	<ListPreference android:key="keyboard_layout"
+    		android:dialogTitle="@string/keyboard_layout_title"
+		android:title="@string/keyboard_layout_title"
+        	android:summary="@string/keyboard_layout_summary"
+        	android:entries="@array/entries_layout"
+		android:entryValues="@array/values_layout" />
+
+    	<ListPreference android:key="keyboard_keyprint"
+		android:dialogTitle="@string/keyboard_keyprint_title"
+        	android:title="@string/keyboard_keyprint_title"
+        	android:summary="@string/keyboard_keyprint_summary"
+        	android:entries="@array/entries_layout"
+		android:entryValues="@array/values_layout" />
+	
+	<ListPreference android:key="keyboard_mode"
+		android:dialogTitle="@string/keyboard_led_mode_title"
+        	android:title="@string/keyboard_led_mode_title"
+        	android:summary="@string/keyboard_led_mode_summary"
+        	android:entries="@array/led_mode_entries"
+		android:entryValues="@array/led_mode_values" />
+
+    </PreferenceCategory>   
+      
+</PreferenceScreen>
+
+

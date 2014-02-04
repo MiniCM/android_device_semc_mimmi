@@ -1,6 +1,6 @@
 <resources>
 
-    <!-- lm3530 Settings -->
+    <!-- brightness Settings -->
     <string-array name="brightness_mode_entries">
         <item>i2c</item>
         <item>i2c_pwm</item>
@@ -71,13 +71,14 @@
         <item>Greek</item>
         <item>Hebrew</item>
         <item>Latin-on-Arabic</item>
-        <item>Latin-on-Arabic-Azerty</item>
+        <item>Latin-on-Arabic-azerty</item>
         <item>Latin-on-Bopomofo</item>
         <item>Latin-on-Cyrillic</item>
         <item>Latin-on-Greek</item>
         <item>Latin-on-Hebrew</item>
         <item>Latin-on-Korean</item>
         <item>Latin-on-Pinyin</item>
+        <item>Latin-on-Thai</item>
         <item>Qwerty-br</item>
         <item>Qwerty-en</item>
         <item>Qwerty-no-dk</item>
@@ -99,6 +100,7 @@
         <item>LOHE</item>
         <item>LOKO</item>
         <item>LOPI</item>
+        <item>LOTH</item>
         <item>QWBR</item>
         <item>QWEN</item>
         <item>QWNDK</item>

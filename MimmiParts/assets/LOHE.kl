@@ -13,6 +13,7 @@
 # limitations under the License.
 #
 #
+### Latin-on-hebrew ###
 
 key 158   BACK              WAKE_DROPPED
 key 102   HOME              WAKE
@@ -70,7 +71,7 @@ key 15    SPACE             WAKE_DROPPED
 key 106   DPAD_DOWN         WAKE_DROPPED
 key 40    APOSTROPHE        WAKE_DROPPED
 # Key code SYM is used by platform to open InputMethodSelectionDialog, use
-# ALT_RIGHT instead.
-key 216   SYM	            WAKE_DROPPED
+# META_RIGHT instead.
+key 216   META_RIGHT        WAKE_DROPPED
 
 

@@ -1,5 +1,11 @@
 package com.cyanogenmod.settings.device;
 
+/**
+ * User: Pedro Veloso
+ * Date: 1/14/12
+ * Time: 7:19 PM
+ */
+ 
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;

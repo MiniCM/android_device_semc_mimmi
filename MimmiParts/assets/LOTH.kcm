@@ -15,7 +15,7 @@
 
 type ALPHA
 
-### Latin-on-korean ###
+### Latin-on-thai ###
 
 ### ROW 1 ###
 
@@ -31,16 +31,16 @@ key W {
     label:                              'W'
     base:                               'w'
     shift:                              'W'
-    alt:                                none
-    shift+alt:                          none
+    alt:                                '\u0E20'
+    shift+alt:                          '\u0E20'
 }
 
 key E {
     label:                              'E'
     base:                               'e'
     shift:                              'E'
-    alt:                                none
-    shift+alt:                          none
+    alt:                                '\u0E38'
+    shift+alt:                          '\u0E38'
 }
 
 key R {
@@ -87,16 +87,16 @@ key O {
     label:                              'O'
     base:                               'o'
     shift:                              'O'
-    alt:                                none
-    shift+alt:                          none
+    alt:                                '\u0E02'
+    shift+alt:                          '\u0E02'
 }
 
 key P {
     label:                              'P'
     base:                               'p'
     shift:                              'P'
-    alt:                                none
-    shift+alt:                          none
+    alt:                                '\u0E0A'
+    shift+alt:                          '\u0E0A'
 }
 
 ### ROW 2 ###
@@ -105,24 +105,24 @@ key A {
     label:                              'A'
     base:                               'a'
     shift:                              'A'
-    alt:                                none
-    shift+alt:                          none
+    alt:                                '\u0E37'
+    shift+alt:                          '\u0E37'
 }
 
 key S {
     label:                              'S'
     base:                               's'
     shift:                              'S'
-    alt:                                '/'
-    shift+alt:                          '/'
+    alt:                                '\u0E04'
+    shift+alt:                          '\u0E04'
 }
 
 key D {
     label:                              'D'
     base:                               'd'
     shift:                              'D'
-    alt:                                '@'
-    shift+alt:                          '@'
+    alt:                                '\u0E15'
+    shift+alt:                          '\u0E15'
 }
 
 key F {
@@ -161,16 +161,16 @@ key K {
     label:                              'K'
     base:                               'k'
     shift:                              'K'
-    alt:                                '('
-    shift+alt:                          '('
+    alt:                                '\u0E1A'
+    shift+alt:                          '\u0E1A'
 }
 
 key L {
     label:                              'L'
     base:                               'l'
     shift:                              'L'
-    alt:                                ')'
-    shift+alt:                          ')'
+    alt:                                '\u0E25'
+    shift+alt:                          '\u0E25'
 }
 
 ### ROW 3 ###
@@ -179,24 +179,24 @@ key Z {
     label:                              'Z'
     base:                               'z'
     shift:                              'Z'
-    alt:                                none
-    shift+alt:                          none
+    alt:                                '('
+    shift+alt:                          '('
 }
 
 key X {
     label:                              'X'
     base:                               'x'
     shift:                              'X'
-    alt:                                none
-    shift+alt:                          none
+    alt:                                ')'
+    shift+alt:                          ')'
 }
 
 key C {
     label:                              'C'
     base:                               'c'
     shift:                              'C'
-    alt:                                none
-    shift+alt:                          none
+    alt:                                '.'
+    shift+alt:                          '.'
 }
 
 key V {
@@ -231,20 +231,20 @@ key M {
     shift+alt:                          '0'
 }
 
-key COMMA {
-    label:                      	','
-    base:                               ','
-    shift:                              ';'
-    alt:                                ';'
-    shift+alt:                          ';'
+key GRAVE {
+    label:                      	'?'
+    base:                               '?'
+    shift:                              '?'
+    alt:                                '?'
+    shift+alt:                          '?'
 }
 
-key PERIOD {
-    label:                      	'.'
-    base:                               '.'
-    shift:                              ':'
-    alt:                                ':'
-    shift+alt:                          ':'
+key SLASH {
+    label:                      	'/'
+    base:                               '/'
+    shift:                              '@'
+    alt:                                '@'
+    shift+alt:                          '@'
 }
 
 key ENTER {
@@ -257,12 +257,12 @@ key ENTER {
 
 ### ROW 4 ###
 
-key GRAVE {
-    label, number:                      '?'
-    base:                               '?'
-    shift:                              '!'
-    alt:                                '!'
-    shift+alt:                          '!'
+key PERIOD {
+    label, number:                      '.'
+    base:                               '\u0E21'
+    shift:                              '\u0E12'
+    alt:                                '\u0E26'
+    shift+alt:                          '\u0E26'
 }
 
 key SPACE {
@@ -275,10 +275,10 @@ key SPACE {
 
 key APOSTROPHE {
     label:                      	'\''
-    base:                               '\''
-    shift:                              '-'
-    alt:                                '-'
-    shift+alt:                          '-'
+    base:                               '\u0E43'
+    shift:                              '\u0E1D'
+    alt:                                '\u0E2C'
+    shift+alt:                          '\u0E2C'
 }
 
 key META_RIGHT {

@@ -15,88 +15,88 @@
 
 type ALPHA
 
-### Qwerty-en ###
+### Arabic ###
 
 ### ROW 1 ###
 
 key Q {
     label:                              '\u0636'
     base:                               '\u0636'
-    shift, capslock:                    '\u064E'
-    alt:				none
-    shift+alt, capslock+alt:            none
+    shift:                              '\u064E'
+    alt:                                none
+    shift+alt:                          none
 }
 
 key W {
     label:                              '\u0635'
     base:                               '\u0635'
-    shift, capslock:                    '\u064B'
-    alt:				')'
-    shift+alt, capslock+alt:            ')'
+    shift:                              '\u064B'
+    alt:                                ')'
+    shift+alt:                          ')'
 }
 
 key E {
     label:                              '\u062B'
     base:                               '\u062B'
-    shift, capslock:                    '\u064F'
-    alt:				'('
-    shift+alt, capslock+alt:            '('
+    shift:                              '\u064F'
+    alt:                                '('
+    shift+alt:                          '('
 }
 
 key R {
     label:                              '\u0642'
     base:                               '\u0642'
-    shift, capslock:                    '\u064C'
-    alt:				'1'
-    shift+alt, capslock+alt:            '1'
+    shift:                              '\u064C'
+    alt:                                '1'
+    shift+alt:                          '1'
 }
 
 key T {
     label:                              '\u0641'
     base:                               '\u0641'
-    shift, capslock:                    '\uFEFA'
-    alt:				'2'
-    shift+alt, capslock+alt:            '2'
+    shift:                              '\uFEFA'
+    alt:                                '2'
+    shift+alt:                          '2'
 }
 
 key Y {
     label:                              '\u063A'
     base:                               '\u063A'
-    shift, capslock:                    '\u0625'
-    alt:				'3'
-    shift+alt, capslock+alt:            '3'
+    shift:                              '\u0625'
+    alt:                                '3'
+    shift+alt:                          '3'
 }
 
 key U {
     label:                              '\u0639'
     base:                               '\u0639'
-    shift, capslock:                    none
-    alt:				'*'
-    shift+alt, capslock+alt:            '*'
+    shift:                              none
+    alt:                                '*'
+    shift+alt:                          '*'
 }
 
 key I {
     label:                              '\u062E'
     base:                               '\u062E'
-    shift, capslock:                    none
-    alt:				'+'
-    shift+alt, capslock+alt:            '+'
+    shift:                              none
+    alt:                                '+'
+    shift+alt:                          '+'
 }
 
 key O {
     label:                              '\u062D'
     base:                               '\u062D'
-    shift, capslock:                    none
-    alt:				'/'
-    shift+alt, capslock+alt:            '/'
+    shift:                              none
+    alt:                                '/'
+    shift+alt:                          '/'
 }
 
 key P {
     label:                              '\u062C'
     base:                               '\u062C'
-    shift, capslock:                    none
-    alt:				'@'
-    shift+alt, capslock+alt:            '@'
+    shift:                              none
+    alt:                                '@'
+    shift+alt:                          '@'
 }
 
 ### ROW 2 ###
@@ -104,73 +104,73 @@ key P {
 key A {
     label:                              '\u0634'
     base:                               '\u0634'
-    shift, capslock:                    '\u0650'
-    alt:				none
-    shift+alt, capslock+alt:            none
+    shift:                              '\u0650'
+    alt:                                none
+    shift+alt:                          none
 }
 
 key S {
     label:                              '\u0633'
     base:                               '\u0633'
-    shift, capslock:                    '\u064D'
-    alt:				'\''
-    shift+alt, capslock+alt:            '\''
+    shift:                              '\u064D'
+    alt:                                '\''
+    shift+alt:                          '\''
 }
 
 key D {
     label:                              '\u064A'
     base:                               '\u064A'
-    shift, capslock:                    '\u0649'
-    alt:				'-'
-    shift+alt, capslock+alt:            '-'
+    shift:                              '\u0649'
+    alt:                                '-'
+    shift+alt:                          '-'
 }
 
 key F {
     label:                              '\u0628'
     base:                               '\u0628'
-    shift, capslock:                    '\u0670'
-    alt:				'4'
-    shift+alt, capslock+alt:            '4'
+    shift:                              '\u0670'
+    alt:                                '4'
+    shift+alt:                          '4'
 }
 
 key G {
     label:                              '\u0644'
     base:                               '\u0644'
-    shift, capslock:                    '\uFEF8'
-    alt:				'5'
-    shift+alt, capslock+alt:            '5'
+    shift:                              '\uFEF8'
+    alt:                                '5'
+    shift+alt:                          '5'
 }
 
 key H {
     label:                              '\u0627'
     base:                               '\u0627'
-    shift, capslock:                    '\u0623'
-    alt:				'6'
-    shift+alt, capslock+alt:            '6'
+    shift:                              '\u0623'
+    alt:                                '6'
+    shift+alt:                          '6'
 }
 
 key J {
     label:                              '\u062A'
     base:                               '\u062A'
-    shift, capslock:                    none
-    alt:				'#'
-    shift+alt, capslock+alt:            '#'
+    shift:                              none
+    alt:                                '#'
+    shift+alt:                          '#'
 }
 
 key K {
     label:                              '\u0646'
     base:                               '\u0646'
-    shift, capslock:                    '\u060C'
-    alt:				','
-    shift+alt, capslock+alt:            ','
+    shift:                              '\u060C'
+    alt:                                ','
+    shift+alt:                          ','
 }
 
 key L {
     label:                              '\u0645'
     base:                               '\u0645'
-    shift, capslock:                    '\u061B'
-    alt:				';'
-    shift+alt, capslock+alt:            ';'
+    shift:                              '\u061B'
+    alt:                                ';'
+    shift+alt:                          ';'
 }
 
 ### ROW 3 ###
@@ -178,81 +178,81 @@ key L {
 key Z {
     label:                              '\u0626'
     base:                               '\u0626'
-    shift, capslock:                    '\u0621'
-    alt:				none
-    shift+alt, capslock+alt:            none
+    shift:                              '\u0621'
+    alt:                                none
+    shift+alt:                          none
 }
 
 key X {
     label:                              '\u0624'
     base:                               '\u0624'
-    shift, capslock:                    '\u0651'
-    alt:				'%'
-    shift+alt, capslock+alt:            '%'
+    shift:                              '\u0651'
+    alt:                                '%'
+    shift+alt:                          '%'
 }
 
 key C {
     label:                              '\u0648'
     base:                               '\u0648'
-    shift, capslock:                    '\u0652'
-    alt:				'\\'
-    shift+alt, capslock+alt:            '\\'
+    shift:                              '\u0652'
+    alt:                                '\\'
+    shift+alt:                          '\\'
 }
 
 key V {
     label:                              '\u0647'
     base:                               '\u0647'
-    shift, capslock:                    '\uFEFC'
-    alt:				'7'
-    shift+alt, capslock+alt:            '7'
+    shift:                              '\uFEFC'
+    alt:                                '7'
+    shift+alt:                          '7'
 }
 
 key B {
     label:                              '\u0631'
     base:                               '\u0631'
-    shift, capslock:                    '\uFEF6'
-    alt:				'8'
-    shift+alt, capslock+alt:            '8'
+    shift:                              '\uFEF6'
+    alt:                                '8'
+    shift+alt:                          '8'
 }
 
 key N {
     label:                              '\u0632'
     base:                               '\u0632'
-    shift, capslock:                    '\u0622'
-    alt:				'9'
-    shift+alt, capslock+alt:            '9'
+    shift:                              '\u0622'
+    alt:                                '9'
+    shift+alt:                          '9'
 }
 
 key M {
     label:                              '\u0643'
     base:                               '\u0643'
-    shift, capslock:                    '\u0629'
-    alt:				'0'
-    shift+alt, capslock+alt:            '0'
+    shift:                              '\u0629'
+    alt:                                '0'
+    shift+alt:                          '0'
 }
 
 key COMMA {
     label:                      	'\u0638'
     base:                               '\u0638'
-    shift, capslock:                    '\u061F'
-    alt:				'?'
-    shift+alt, capslock+alt:            '?'
+    shift:                              '\u061F'
+    alt:                                '?'
+    shift+alt:                          '?'
 }
 
 key PERIOD {
     label:                      	'\u0637'
     base:                               '\u0637'
-    shift, capslock:                    none
-    alt:				'!'
-    shift+alt, capslock+alt:            '!'
+    shift:                              none
+    alt:                                '!'
+    shift+alt:                          '!'
 }
 
 key ENTER {
     label:                              '\n'
     base:                               '\n'
-    shift, capslock:                    '\n'
-    alt:				'\n'
-    shift+alt, capslock+alt:            '\n'
+    shift:                              '\n'
+    alt:                                '\n'
+    shift+alt:                          '\n'
 }
 
 ### ROW 4 ###
@@ -260,31 +260,31 @@ key ENTER {
 key GRAVE {
     label:                              '\u0630'
     base:                               '\u0630'
-    shift, capslock:                    none
-    alt:				':'
-    shift+alt, capslock+alt:            ':'
+    shift:                              none
+    alt:                                ':'
+    shift+alt:                          ':'
 }
 
 key SPACE {
     label:                              ' '
     base:                               ' '
-    shift, capslock:                    ' '
-    alt:				' '
-    shift+alt, capslock+alt:            ' '
+    shift:                              ' '
+    alt:                                ' '
+    shift+alt:                          ' '
 }
 
 key APOSTROPHE {
     label:                      	'\u062F'
     base:                               '\u062F'
-    shift, capslock:                    none
-    alt:				'.'
-    shift+alt, capslock+alt:            '.'
+    shift:                              none
+    alt:                                '.'
+    shift+alt:                          '.'
 }
 
-key SYM {
+key META_RIGHT {
     label:                              '\uef01'
     base:                               '\uef01'
-    shift, capslock:                    '\uef01'
+    shift:                              '\uef01'
     alt:                                '\uef01'
-    shift+alt, capslock+alt:            '\uef01'
+    shift+alt:                          '\uef01'
 }
